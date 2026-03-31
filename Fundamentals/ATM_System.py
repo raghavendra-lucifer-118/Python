@@ -5,7 +5,7 @@ print("=====================")
 print("💳 SMART ATM SYSTEM")
 print("=====================")
 
-# validating Pin
+# validating Pin - 2275
 pin = int(input("Enter Your PIN: "))
 if pin == 2275:
     while True:
