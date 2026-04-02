@@ -48,7 +48,7 @@ eng = float(input("Enter Marks in English: "))
 
 
 
-# Calculating total , average and grade
+# Calculating total , average , grade and call report() to print the student report
 total = calculate_total(sci,maths,eng)
 average = calculate_avg(total)
 grade = get_grade(average)
