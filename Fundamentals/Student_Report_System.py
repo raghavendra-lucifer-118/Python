@@ -26,7 +26,7 @@ def get_grade(avg):
 def report(name, sci_marks, math_marks, eng_marks, total, average, grade):
     print("============================")
     print(" 📄 REPORT CARD")
-    print("============================"
+    print("============================")
     print("Student Name   : " , name)
     print("Science Marks  : " , sci_marks)
     print("Math Marks     : " , math_marks)
