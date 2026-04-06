@@ -34,6 +34,17 @@ class Book:
         else:
             print(f"❌ '{self.title}' was not borrowed in the first place.")
 
+class TextBook(Book):
+    def __init__(self, book_title, book_author, book_price , book_board, book_teacher):
+        super().__init__(book_title, book_author, book_price)
+        self.board = book_board
+        self.teacher = book_teacher
+
+    def __str__(self):
+        super().__str__(self , )
+        return (f"Board          : {self.board}\n"
+                f"Teacher        : {self.teacher}\n"
+                )
 
 # Creation of objects , The only books I ever read 😅
 book1 = Book("Atomic Habits" , "James Clear" , 29.9)
